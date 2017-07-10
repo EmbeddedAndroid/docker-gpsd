@@ -1,4 +1,4 @@
-FROM alpine
+FROM linarotechnologies/alpine:edge
 
 RUN apk add --no-cache gpsd
 
